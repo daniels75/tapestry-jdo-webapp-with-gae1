@@ -1,0 +1,43 @@
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/test/resources" output="target/test-classes" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar" sourcepath="M2_REPO/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.jar" sourcepath="M2_REPO/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/transaction/jta/1.1/jta-1.1.jar" sourcepath="M2_REPO/javax/transaction/jta/1.1/jta-1.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/antlr/antlr-runtime/3.3/antlr-runtime-3.3.jar" sourcepath="M2_REPO/org/antlr/antlr-runtime/3.3/antlr-runtime-3.3-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/appengine/appengine-api-1.0-sdk/1.7.4/appengine-api-1.0-sdk-1.7.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/ow2/asm/asm/4.0/asm-4.0.jar" sourcepath="M2_REPO/org/ow2/asm/asm/4.0/asm-4.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.5/commons-codec-1.5.jar" sourcepath="M2_REPO/commons-codec/commons-codec/1.5/commons-codec-1.5-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/datanucleus/datanucleus-api-jdo/3.1.2/datanucleus-api-jdo-3.1.2.jar" sourcepath="M2_REPO/org/datanucleus/datanucleus-api-jdo/3.1.2/datanucleus-api-jdo-3.1.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/appengine/orm/datanucleus-appengine/2.1.1/datanucleus-appengine-2.1.1.jar" sourcepath="M2_REPO/com/google/appengine/orm/datanucleus-appengine/2.1.1/datanucleus-appengine-2.1.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/datanucleus/datanucleus-core/3.1.2/datanucleus-core-3.1.2.jar" sourcepath="M2_REPO/org/datanucleus/datanucleus-core/3.1.2/datanucleus-core-3.1.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/datanucleus/datanucleus-enhancer/3.1.1/datanucleus-enhancer-3.1.1.jar" sourcepath="M2_REPO/org/datanucleus/datanucleus-enhancer/3.1.1/datanucleus-enhancer-3.1.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/datanucleus/datanucleus-rdbms/3.1.2/datanucleus-rdbms-3.1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/easymock/easymock/3.1/easymock-3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/h2database/h2/1.3.164/h2-1.3.164.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar" sourcepath="M2_REPO/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar" sourcepath="M2_REPO/junit/junit/3.8.1/junit-3.8.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.14/log4j-1.2.14.jar" sourcepath="M2_REPO/log4j/log4j/1.2.14/log4j-1.2.14-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/mockito/mockito-all/1.8.5/mockito-all-1.8.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/objenesis/objenesis/1.2/objenesis-1.2.jar" sourcepath="M2_REPO/org/objenesis/objenesis/1.2/objenesis-1.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/tapestry/plastic/5.3.2/plastic-5.3.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar" sourcepath="M2_REPO/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar" sourcepath="M2_REPO/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/tapestry/tapestry-core/5.3.2/tapestry-core-5.3.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/tapestry/tapestry-func/5.3.2/tapestry-func-5.3.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/tapestry/tapestry-ioc/5.3.2/tapestry-ioc-5.3.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/tynamo/tapestry-jdo/0.0.2/tapestry-jdo-0.0.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/tynamo/tapestry-jdo-core/0.0.2/tapestry-jdo-core-0.0.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/tapestry/tapestry-json/5.3.2/tapestry-json-5.3.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/tapestry/tapestry5-annotations/5.3.2/tapestry5-annotations-5.3.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/testng/testng/5.9/testng-5.9-jdk15.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+</classpath>

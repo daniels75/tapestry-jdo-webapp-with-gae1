@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jdoconfig xmlns="http://java.sun.com/xml/ns/jdo/jdoconfig"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://java.sun.com/xml/ns/jdo/jdoconfig">
+    <!--property name="javax.jdo.option.NontransactionalWrite" value="true"/-->
+    <persistence-manager-factory name="mysqlconfig">
+        <property name="javax.jdo.PersistenceManagerFactoryClass" value="org.datanucleus.api.jdo.JDOPersistenceManagerFactory"/>
+        <property name="javax.jdo.option.RetainValues" value="true"/>
+		<property name="javax.jdo.option.ConnectionDriverName" value="com.mysql.jdbc.Driver" />
+		<property name="javax.jdo.option.ConnectionURL" value="jdbc:mysql://localhost/MySite?createDatabaseIfNotExist=true&amp;useUnicode=true&amp;characterEncoding=utf-8" />
+		<property name="javax.jdo.option.ConnectionUserName" value="root" />
+		<property name="javax.jdo.option.ConnectionPassword" value="admin123" />
+		
+		<property name="datanucleus.autoCreateSchema" value="true" />
+		<property name="datanucleus.validateTables" value="false" />
+		<property name="datanucleus.validateConstraints" value="false" />
+    </persistence-manager-factory>
+</jdoconfig>
